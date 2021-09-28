@@ -7,3 +7,17 @@
 .bg-green {
     background-color: rgb(89, 199, 155);
 }
+
+.bg-blue {
+    background-color: rgb(62, 125, 201);
+}
+
+.bg-dark-blue {
+    background-color: rgb(46, 95, 155);
+}
+
+.line {
+    width: 70px;
+    min-height: 5px;
+    max-height: 5px;
+}
