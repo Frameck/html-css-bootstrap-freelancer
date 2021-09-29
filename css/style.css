@@ -21,3 +21,14 @@
     min-height: 5px;
     max-height: 5px;
 }
+
+.circle {
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+.circle > * {
+    margin-left: 8px!important;
+}

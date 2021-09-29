@@ -11,18 +11,43 @@
 </head>
 <body>
     <header class="bg-green text-white">
-        <nav class="bg-dark py-4">
-            <div class="container">
-                <div class="row">
-                    <div class="col left-container">
-                        <h3>START BOOTSTRAP</h3> 
-                    </div>
-                    <div class="col right-container mx-auto">
-                        
-                    </div>
-                </div>
+        <nav class="bg-dark text-white py-3 d-none">
+            <div class="container d-flex align-items-center">
+              <div class="left-section fw-bold">
+                START BOOTSTRAP
+              </div>
+      
+              <div class="right-section ms-auto">
+                <ul class="list-inline mb-0 d-none d-sm-block">
+                  <li class="list-inline-item"><a href="#" class="text-decoration-none link-light">link 1</a></li>
+                  <li class="list-inline-item"><a href="#" class="text-decoration-none link-light">link 2</a></li>
+                  <li class="list-inline-item"><a href="#" class="text-decoration-none link-light">link 3</a></li>
+                </ul>
+      
+                <button class="btn btn-light d-sm-none">Menu</button>
+              </div>
             </div>
-        </nav>
+          </nav>
+      
+          <nav class="navbar navbar-expand-sm navbar-dark navbar-boolean bg-dark ">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">START BOOTSTRAP</a>
+      
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+      
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                  <a class="nav-link" href="#">Link 1</a>
+                  <a class="nav-link" href="#">Link 2</a>
+                  <a class="nav-link" href="#">Link 3</a>
+                  <a class="nav-link" href="#">Link 4</a>
+                </div>
+              </div>
+            </div>
+          </nav>
 
         <div class="container">
             <div class="text-center my-4 w-50 mx-auto">
@@ -66,7 +91,7 @@
                     <i class="fas fa-star fs-1 mx-2"></i>
                     <div class="line align-self-center bg-white"></div>
                 </div>
-                <p>
+                <p class="px-5 mx-5">
                     Freelance is a free bootstrap theme created bi Start Boostrap. The download includes the complete source files including HTML, CSS and JavaScript as well as optional LESS stylesheets for easy customization.
                     Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!
                 </p>
@@ -78,7 +103,7 @@
         </section>
 
         <section>
-            <div class="container mx-auto mt-5 py-4">
+            <div class="container mx-auto mt-5 py-4 px-5">
                 <div class="text-center">
                     <h4 class="fs-2 mb-4">CONTACT ME</h4>
                     <div class="d-flex flex-row justify-content-center my-4">
@@ -86,9 +111,9 @@
                         <i class="fas fa-star fs-1 mx-2"></i>
                         <div class="line align-self-center bg-dark"></div>
                     </div>
-                    <input type="text" class="form-control my-1" placeholder="Name" aria-label="Name">
-                    <input type="text" class="form-control my-1" placeholder="Email Address" aria-label="Email">
-                    <input type="text" class="form-control my-1" placeholder="Phone Number" aria-label="Phone">
+                    <input type="text" class="form-control my-2" placeholder="Name" aria-label="Name">
+                    <input type="text" class="form-control my-2" placeholder="Email Address" aria-label="Email">
+                    <input type="text" class="form-control my-2" placeholder="Phone Number" aria-label="Phone">
                     <textarea class="form-control my-1" placeholder="Message" aria-label="textarea"></textarea>
                 </div>
                 <input class="btn bg-green text-white" type="submit" value="Send">
@@ -99,15 +124,23 @@
     <footer class="bg-blue pt-5">
         <div class="container">
             <section>
-                <div class="text-center text-white">
+                <div class="text-center text-white px-5 mx-5">
                     <div>LOCATION</div>
                     <div class="mb-4">2215 John Daniel Drive Clark, MO 54243</div>
-                    <div>AROUND THE WEB</div>
+                    <div class="my-1">AROUND THE WEB</div>
                     <div class="d-flex justify-content-center mb-4">
-                        <i class="fab fa-facebook-f mx-3"></i>
-                        <i class="fab fa-google-plus-g mx-3"></i>
-                        <i class="fab fa-twitter mx-3"></i>
-                        <i class="fab fa-linkedin-in mx-3"></i>
+                        <div class="circle mx-2">
+                            <i class="fab fa-facebook-f mx-3"></i>
+                        </div>
+                        <div class="circle mx-2">
+                            <i class="fab fa-google-plus-g mx-3"></i>
+                        </div>
+                        <div class="circle mx-2">
+                            <i class="fab fa-twitter mx-3"></i>
+                        </div>
+                        <div class="circle mx-2">
+                            <i class="fab fa-linkedin-in mx-3"></i>
+                        </div>
                     </div>
                     <div>ABOUT FREELANCER</div>
                     <div class="mb-4">Freelance is a free to use, open source Bootstrap theme created by Start Bootstrap</div>
