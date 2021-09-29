@@ -11,47 +11,26 @@
 </head>
 <body>
     <header class="bg-green text-white">
-        <nav class="bg-dark text-white py-3 d-none">
+        <nav class="bg-dark text-white py-3 fw-bold">
             <div class="container d-flex align-items-center">
-              <div class="left-section fw-bold">
-                START BOOTSTRAP
-              </div>
-      
-              <div class="right-section ms-auto">
-                <ul class="list-inline mb-0 d-none d-sm-block">
-                  <li class="list-inline-item"><a href="#" class="text-decoration-none link-light">link 1</a></li>
-                  <li class="list-inline-item"><a href="#" class="text-decoration-none link-light">link 2</a></li>
-                  <li class="list-inline-item"><a href="#" class="text-decoration-none link-light">link 3</a></li>
-                </ul>
-      
-                <button class="btn btn-light d-sm-none">Menu</button>
-              </div>
-            </div>
-          </nav>
-      
-          <nav class="navbar navbar-expand-sm navbar-dark navbar-boolean bg-dark ">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">START BOOTSTRAP</a>
-      
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-      
-              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav ms-auto">
-                  <a class="nav-link" href="#">Link 1</a>
-                  <a class="nav-link" href="#">Link 2</a>
-                  <a class="nav-link" href="#">Link 3</a>
-                  <a class="nav-link" href="#">Link 4</a>
+                <div class="left-section">
+                    <h2>START BOOTSTRAP</h2>
                 </div>
-              </div>
+
+                <div class="right-section ms-auto">
+                    <ul class="list-inline mb-0 d-none d-sm-block">
+                        <li class="list-inline-item"><a href="#portfolio" class="text-decoration-none link-light">Portfolio</a></li>
+                        <li class="list-inline-item"><a href="#about" class="text-decoration-none link-light">About</a></li>
+                        <li class="list-inline-item"><a href="#contact" class="text-decoration-none link-light">Contact</a></li>
+                    </ul>
+                    <button class="btn btn-light d-sm-none">Menu</button>
+                </div>
             </div>
-          </nav>
+        </nav>
 
         <div class="container">
-            <div class="text-center my-4 w-50 mx-auto">
-                <img src="img/avatar.svg" class="rounded img-fluid mx-auto d-block" alt="avatar">
+            <div class="text-center my-4 w-50 w-md-25 mx-auto">
+                <img src="img/avatar.svg" class="rounded mx-auto d-block" alt="avatar">
             </div>
             <div class="text-center">
                 <h1 class="pb-3">START BOOTSTRAP</h1>
@@ -69,36 +48,57 @@
         <section>
             <div class="container mx-auto mt-5 text-center">
                 <h4 class="fs-2 mb-4">PORTFOLIO</h4>
-                <div class="d-flex flex-row justify-content-center">
+                <div class="d-flex flex-row justify-content-center mb-4">
                     <div class="line align-self-center bg-dark"></div>
                     <i class="fas fa-star fs-1 mx-2"></i>
                     <div class="line align-self-center bg-dark"></div>
                 </div>
-                <img src="img/cabin.png" alt="" class="rounded img-fluid mx-auto d-block my-4">
-                <img src="img/cake.png" alt="" class="rounded img-fluid mx-auto d-block my-4">
-                <img src="img/circus.png" alt="" class="rounded img-fluid mx-auto d-block my-4">
-                <img src="img/game.png" alt="" class="rounded img-fluid mx-auto d-block my-4">
-                <img src="img/safe.png" alt="" class="rounded img-fluid mx-auto d-block my-4">
-                <img src="img/submarine.png" alt="" class="rounded img-fluid mx-auto d-block my-4 mb-5">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                    <div class="col">
+                        <img src="img/cabin.png" class="img-fluid rounded" alt="cabin">
+                    </div>
+                    <div class="col">
+                        <img src="img/cake.png" class="img-fluid rounded" alt="cake">
+                    </div>
+                    <div class="col">
+                        <img src="img/circus.png" class="img-fluid rounded" alt="circus">
+                    </div>
+                    <div class="col">
+                        <img src="img/game.png" class="img-fluid rounded" alt="game">
+                    </div>
+                    <div class="col">
+                        <img src="img/safe.png" class="img-fluid rounded" alt="safe">
+                    </div>
+                    <div class="col">
+                        <img src="img/submarine.png" class="img-fluid rounded" alt="submarine">
+                    </div>
+                </div>
             </div>
         </section>
 
-        <section>
-            <div class="bg-green text-white container mx-auto mt-5 text-center py-4">
-                <h4 class="fs-2 mb-4">ABOUT</h4>
+        <section class="bg-green">
+            <div class="text-white container mx-auto mt-5 py-4">
+                <h4 class="fs-2 mb-4 text-center">ABOUT</h4>
                 <div class="d-flex flex-row justify-content-center my-4">
                     <div class="line align-self-center bg-white"></div>
                     <i class="fas fa-star fs-1 mx-2"></i>
                     <div class="line align-self-center bg-white"></div>
                 </div>
-                <p class="px-5 mx-5">
-                    Freelance is a free bootstrap theme created bi Start Boostrap. The download includes the complete source files including HTML, CSS and JavaScript as well as optional LESS stylesheets for easy customization.
-                    Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!
-                </p>
-                <button type="button" class="btn btn-outline-light">
-                    <i class="fas fa-download"></i>
-                    Download
-                </button>
+                <div class="row row-cols-1 row-cols-md-2 justify-content-center">
+                    <div class="col-8 col-md-5 col-xxl-4 mb-3">
+                        <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+                    </div>
+
+                    <div class="col-8 col-md-5 col-xxl-4">
+                        <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your project, this template is the perfect staring point!</p>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <button type="button" class="btn btn-outline-light">
+                        <i class="fas fa-download"></i>
+                        Download
+                    </button>
+                </div>
             </div>
         </section>
 
@@ -121,38 +121,38 @@
         </section>
     </main>
 
-    <footer class="bg-blue pt-5">
-        <div class="container">
-            <section>
-                <div class="text-center text-white px-5 mx-5">
-                    <div>LOCATION</div>
-                    <div class="mb-4">2215 John Daniel Drive Clark, MO 54243</div>
-                    <div class="my-1">AROUND THE WEB</div>
-                    <div class="d-flex justify-content-center mb-4">
-                        <div class="circle mx-2">
-                            <i class="fab fa-facebook-f mx-3"></i>
-                        </div>
-                        <div class="circle mx-2">
-                            <i class="fab fa-google-plus-g mx-3"></i>
-                        </div>
-                        <div class="circle mx-2">
-                            <i class="fab fa-twitter mx-3"></i>
-                        </div>
-                        <div class="circle mx-2">
-                            <i class="fab fa-linkedin-in mx-3"></i>
-                        </div>
-                    </div>
-                    <div>ABOUT FREELANCER</div>
-                    <div class="mb-4">Freelance is a free to use, open source Bootstrap theme created by Start Bootstrap</div>
-                </div>
-            </section>
-        </div>
 
-        <section class="bg-dark-blue py-5">
-            <div class="text-center text-white">
-                Copyright Your Website 2019
-            </div>
+    <footer class="bg-blue text-white text-center pt-3">
+        <section>
+          <div class="container">
+              <div class="row row-cols-1 row-cols-md-3">
+                  <div class="col my-4">
+                      <h5>LOCATION</h5>
+                      <div>2215 John Daniel Drive Clark, MO</div>
+                      <div>54243</div>
+                  </div>
+
+                  <div class="col my-4">
+                      <h5>AROUND THE WEB</h5>
+                      <ul class="list-inline social">
+                          <li class="list-inline-item circle"><a href="#" class="text-decoration-none link-light"><i class="fab fa-facebook-f"></i></a></li>
+                          <li class="list-inline-item circle"><a href="#" class="text-decoration-none link-light"><i class="fab fa-google-plus-g"></i></a></li>
+                          <li class="list-inline-item circle"><a href="#" class="text-decoration-none link-light"><i class="fab fa-twitter"></i></a></li>
+                          <li class="list-inline-item circle"><a href="#" class="text-decoration-none link-light"><i class="fab fa-linkedin-in"></i></a></li>
+                      </ul>
+                  </div>
+
+                  <div class="col my-4">
+                      <h5>ABOUT FREELANCER</h5>
+                      <p>Freelancer is a free to use,open source Bootstrap theme created by <span class="text-green">Start Boolstrap</span></p>
+                  </div>
+              </div>
+          </div>
         </section>
+
+        <div class="bg-dark-blue py-5">
+            Copyright <i class="far fa-copyright"></i> Your Website 2021
+        </div>
     </footer>
 </body>
 </html>

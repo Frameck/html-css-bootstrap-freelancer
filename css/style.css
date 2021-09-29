@@ -5,7 +5,11 @@
 }
 
 .bg-green {
-    background-color: rgb(89, 199, 155);
+    background-color: rgb(75, 198, 165);
+}
+
+.text-green {
+    color: rgb(75, 198, 165);
 }
 
 .bg-blue {
@@ -30,5 +34,5 @@
 }
 
 .circle > * {
-    margin-left: 8px!important;
+    margin-left: 0px!important;
 }
